@@ -10,16 +10,17 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <!--    box  1 start -->
+
         <RelativeLayout
             android:id="@+id/title_ek1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="0dp"
             android:layout_marginTop="1dp"
-            android:paddingBottom="5dp"
             android:layout_marginBottom="1dp"
             android:background="@android:color/white"
-            >
+            android:paddingBottom="5dp">
 
             <TextView
                 android:id="@+id/popular_ek1"
@@ -51,7 +52,7 @@
 
 
         </RelativeLayout>
-        <!--    box  1 start -->
+
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/card_ek3"
             android:layout_width="match_parent"
@@ -478,6 +479,145 @@
 
 
         <!--    box 3 end-->
+
+        <!--    box  4 start -->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/card1_ek3125"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:background="#f6f6f6">
+
+
+            <RelativeLayout
+                android:id="@+id/image1125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp">
+
+                <View
+                    android:id="@+id/m1ask_ek2125"
+                    android:layout_width="130dp"
+                    android:layout_height="131dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/mask_ek2_shape" />
+
+                <View
+                    android:id="@+id/mask1_ek3125"
+                    android:layout_width="130dp"
+                    android:layout_height="131dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/iaf_officer" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/mobile_des1ign_ek1125"
+                android:layout_width="130dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="21dp"
+                android:fontFamily="Poppins"
+                android:text="AFCAT Online Course"
+                android:textColor="@color/home_color"
+                android:textSize="14sp" />
+
+
+            <RelativeLayout
+                android:id="@+id/scor1e125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="60dp">
+
+                <ImageView
+                    android:id="@+id/icon_1ek51125"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="1dp"
+                    android:contentDescription="ic_star"
+                    android:src="@drawable/ic_star" />
+
+                <ImageView
+                    android:id="@+id/icon_e1111k6125"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:contentDescription="ic_star"
+                    android:src="@drawable/ic_star" />
+
+                <ImageView
+                    android:id="@+id/icon_11ek7125"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="1dp"
+                    android:contentDescription="ic_star"
+                    android:src="@drawable/ic_star" />
+
+                <ImageView
+                    android:id="@+id/icon_e11k8125"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="1dp"
+                    android:contentDescription="ic_star"
+                    android:src="@drawable/ic_star" />
+
+                <ImageView
+                    android:id="@+id/icon_e11k9125"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="1dp"
+                    android:contentDescription="ic_star"
+                    android:src="@drawable/ic_star" />
+
+                <TextView
+                    android:id="@+id/_5_0__21_reviews11_125"
+                    android:layout_width="126dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="103dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="Poppins"
+                    android:text="@string/_5_0__21_reviews__string"
+                    android:textColor="@color/_5_0__21_reviews__color"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/time12115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="104dp">
+
+
+
+                <TextView
+                    android:id="@+id/_25_class12115"
+                    android:layout_width="75dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="Poppins"
+                    android:text="@string/_25_class_string"
+                    android:textColor="@color/_25_class_color"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <!--    box 4 end-->
     </LinearLayout>
 
 
