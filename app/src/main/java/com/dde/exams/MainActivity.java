@@ -17,7 +17,9 @@ BottomNavigationView bottomNavigationView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-
+/**
+ * this is the bottom nav bar logic start
+ * */
 getSupportFragmentManager().beginTransaction().replace(R.id.container,new Home()).commit();//    this is the home fragment by default
         bottomNavigationView=findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -35,5 +37,8 @@ getSupportFragmentManager().beginTransaction().replace(R.id.container,new Home()
                 return true;
             }
         });
+        /**
+         * this is the bottom nav bar logic end
+         * */
     }
 }

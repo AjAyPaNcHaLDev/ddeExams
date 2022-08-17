@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- oval_ek9 from your XD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="oval" >
+	<stroke android:color="#e5e5e5" android:width="2dp" />
+	<solid android:color="@color/oval_color" />
+</shape>
+

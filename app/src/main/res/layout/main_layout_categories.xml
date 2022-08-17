@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/categories"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="14dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/see_all"
+            android:layout_width="57dp"
+            android:layout_height="26dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginStart="195dp"
+            android:layout_marginLeft="338dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toEndOf="@+id/categories_ek1"
+            android:fontFamily="Poppins"
+            android:gravity="end"
+            android:text="@string/see_all_string"
+            android:textColor="@color/home_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/categories_ek1"
+            android:layout_width="119dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="Poppins"
+            android:text="@string/categories_ek1_string"
+            android:textColor="@color/home_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="43dp">
+
+                <View
+                    android:id="@+id/rectangle_ek1"
+                    android:layout_width="118dp"
+                    android:layout_height="128dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_ek1_shape" />
+
+
+                <RelativeLayout
+                    android:id="@+id/icon_ek2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/army" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/mobile_design"
+                    android:layout_width="68dp"
+                    android:layout_height="58dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="66dp"
+                    android:layout_marginEnd="21dp"
+                    android:fontFamily="Poppins"
+                    android:gravity="center"
+                    android:text="NDA"
+                    android:textColor="@color/rectangle_color"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/card_ek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="134dp"
+                android:layout_marginTop="43dp">
+
+                <View
+                    android:id="@+id/rectangle_ek2"
+                    android:layout_width="118dp"
+                    android:layout_height="128dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_ek2_shape" />
+
+
+                <RelativeLayout
+                    android:id="@+id/icon_ek422"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cds_img" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/icon_design"
+                    android:layout_width="68dp"
+                    android:layout_height="58dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="66dp"
+                    android:fontFamily="Poppins"
+                    android:gravity="center"
+                    android:text="CDS"
+                    android:textColor="@color/home_color"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/card_ek2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="268dp"
+                android:layout_marginTop="43dp">
+
+                <View
+                    android:id="@+id/rectangle_ek3"
+                    android:layout_width="118dp"
+                    android:layout_height="128dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_ek3_shape" />
+
+
+                <RelativeLayout
+                    android:id="@+id/icon_ek42342"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="20dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/wp2869455" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/app_market"
+                    android:layout_width="68dp"
+                    android:layout_height="58dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="66dp"
+                    android:fontFamily="Poppins"
+                    android:gravity="center"
+                    android:text="ARMY"
+                    android:textColor="@color/home_color"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

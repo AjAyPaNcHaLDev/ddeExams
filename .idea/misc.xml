@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/drawable/_bg___01_ek2_shape.xml" value="0.1" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/drawable/ic_icon.xml" value="0.1" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/activity_main.xml" value="0.165625" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/bottom_navigation.xml" value="0.1796875" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/fragment_all_courses.xml" value="0.1796875" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/main_activity_header.xml" value="0.1796875" />
+        <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/main_activity_popular.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/main_layout_categories.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/popular_card.xml" value="0.22" />
+        <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/search_bar.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1796875" />
       </map>
     </option>

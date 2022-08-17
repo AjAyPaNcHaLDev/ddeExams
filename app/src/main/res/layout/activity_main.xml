@@ -19,12 +19,12 @@
             android:layout_above="@+id/bottom_navigation"
             tools:ignore="NotSibling">
 
-
         </FrameLayout>
 
-    <include layout="@layout/bottom_navigation"
-        android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <include
+            layout="@layout/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
     </RelativeLayout>
 </RelativeLayout>
