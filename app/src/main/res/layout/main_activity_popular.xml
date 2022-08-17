@@ -3,11 +3,11 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#fff"
+        android:background="#f6f6f6"
+        android:gravity="center"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -15,15 +15,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="0dp"
-            android:layout_marginTop="0dp"
-
+            android:layout_marginTop="1dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/white"
             >
 
             <TextView
                 android:id="@+id/popular_ek1"
-                android:layout_width="90dp"
-                android:layout_height="35dp"
-                android:layout_marginLeft="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_marginTop="0dp"
                 android:fontFamily="Poppins"
                 android:text="@string/popular_ek1_string"
@@ -32,11 +34,15 @@
 
             <TextView
                 android:id="@+id/see_all_ek1"
-                android:layout_width="57dp"
-                android:layout_height="26dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_gravity="center_vertical|end"
+                android:layout_marginStart="284dp"
                 android:layout_marginLeft="338dp"
                 android:layout_marginTop="3dp"
+                android:layout_marginEnd="11dp"
+                android:layout_toEndOf="@+id/popular_ek1"
                 android:fontFamily="Poppins"
                 android:gravity="end"
                 android:text="@string/see_all_ek1_string"
@@ -45,26 +51,16 @@
 
 
         </RelativeLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#F89E9D9D"
-        android:gravity="center"
-        android:orientation="vertical">
-
-
         <!--    box  1 start -->
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/card_ek3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="43dp"
-            android:background="@color/white">
+            android:background="#f6f6f6">
 
             <ImageView
                 android:id="@+id/rectangle_ek4"
-                android:layout_width="386dp"
+                android:layout_width="match_parent"
                 android:layout_height="130dp"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="1dp"
@@ -183,31 +179,7 @@
                 android:layout_marginTop="104dp">
 
 
-                <RelativeLayout
-                    android:id="@+id/icon_ek10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="1dp">
 
-                    <View
-                        android:id="@+id/oval_ek1"
-                        android:layout_width="19dp"
-                        android:layout_height="19dp"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp"
-                        android:background="@drawable/oval_ek1_shape" />
-
-                    <ImageView
-                        android:id="@+id/path_ek26"
-                        android:layout_width="3dp"
-                        android:layout_height="6dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="5dp"
-                        android:contentDescription="path_ek26"
-                        android:src="@drawable/path_ek26" />
-
-                </RelativeLayout>
 
                 <TextView
                     android:id="@+id/_25_class"
@@ -236,14 +208,6 @@
             android:layout_marginTop="3dp"
             android:background="@color/white">
 
-            <ImageView
-                android:id="@+id/rectangle_ek412"
-                android:layout_width="386dp"
-                android:layout_height="130dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="1dp"
-                android:contentDescription="rectangle_ek4"
-                android:src="@drawable/rectangle_ek4" />
 
 
             <RelativeLayout
@@ -357,31 +321,6 @@
                 android:layout_marginTop="104dp">
 
 
-                <RelativeLayout
-                    android:id="@+id/icon_ek1012"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="1dp">
-
-                    <View
-                        android:id="@+id/oval_ek112"
-                        android:layout_width="19dp"
-                        android:layout_height="19dp"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp"
-                        android:background="@drawable/oval_ek1_shape" />
-
-                    <ImageView
-                        android:id="@+id/path_ek2612"
-                        android:layout_width="3dp"
-                        android:layout_height="6dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="5dp"
-                        android:contentDescription="path_ek26"
-                        android:src="@drawable/path_ek26" />
-
-                </RelativeLayout>
 
                 <TextView
                     android:id="@+id/_25_class12"
@@ -407,16 +346,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
-            android:background="@color/white">
-
-            <ImageView
-                android:id="@+id/rectangle_e2k412"
-                android:layout_width="386dp"
-                android:layout_height="130dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="1dp"
-                android:contentDescription="rectangle_ek4"
-                android:src="@drawable/rectangle_ek4" />
+            android:background="#f6f6f6">
 
 
             <RelativeLayout
@@ -530,31 +460,6 @@
                 android:layout_marginTop="104dp">
 
 
-                <RelativeLayout
-                    android:id="@+id/icon_ek101211"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="1dp">
-
-                    <View
-                        android:id="@+id/oval_ek11211"
-                        android:layout_width="19dp"
-                        android:layout_height="19dp"
-                        android:layout_marginStart="0dp"
-                        android:layout_marginTop="0dp"
-                        android:background="@drawable/oval_ek1_shape" />
-
-                    <ImageView
-                        android:id="@+id/path_ek261211"
-                        android:layout_width="3dp"
-                        android:layout_height="6dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="5dp"
-                        android:contentDescription="path_ek26"
-                        android:src="@drawable/path_ek26" />
-
-                </RelativeLayout>
 
                 <TextView
                     android:id="@+id/_25_class1211"

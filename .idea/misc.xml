@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/AjAyPaNcHaL/StudioProjects/ddeExams/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2045" />
+        <entry key="..\:/Users/AjAyPaNcHaL/StudioProjects/ddeExams/app/src/main/res/layout/fragment_home.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/AjAyPaNcHaL/StudioProjects/ddeExams/app/src/main/res/layout/main_activity_header.xml" value="0.2" />
+        <entry key="..\:/Users/AjAyPaNcHaL/StudioProjects/ddeExams/app/src/main/res/layout/main_activity_popular.xml" value="0.4165067178502879" />
+        <entry key="..\:/Users/AjAyPaNcHaL/StudioProjects/ddeExams/app/src/main/res/layout/main_layout_categories.xml" value="0.3815028901734104" />
+        <entry key="..\:/Users/AjAyPaNcHaL/StudioProjects/ddeExams/app/src/main/res/layout/search_bar.xml" value="0.18385416666666668" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/drawable/_bg___01_ek2_shape.xml" value="0.1" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/drawable/ic_icon.xml" value="0.1" />
         <entry key="..\:/Users/ok/AndroidStudioProjects/DDEOnline2/app/src/main/res/layout/activity_main.xml" value="0.165625" />

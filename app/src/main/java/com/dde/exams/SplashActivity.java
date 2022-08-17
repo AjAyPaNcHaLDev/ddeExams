@@ -1,4 +1,4 @@
-package com.dde.exams.screen;
+package com.dde.exams;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,13 +12,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.dde.exams.MainActivity;
-import com.dde.exams.R;
-
 public class SplashActivity extends AppCompatActivity {
-
-
-
 
     private static final long SPLASH_TIME_OUT = 2000;
     ImageView imageViewLogo;
@@ -28,9 +22,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         imageViewLogo=(ImageView) findViewById(R.id.imageViewLogo);
-//
-//        Animation animation= AnimationUtils.loadAnimation(this,R.anim.logoanimation);
-//        imageViewLogo.setAnimation(animation);
+
         ObjectAnimator objectAnimator=ObjectAnimator.ofPropertyValuesHolder(imageViewLogo,
                 PropertyValuesHolder.ofFloat("scaleX",1.2f),
                 PropertyValuesHolder.ofFloat("scaleY",1.2f));

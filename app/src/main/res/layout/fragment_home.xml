@@ -13,13 +13,11 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:orientation="vertical">
-<include layout="@layout/main_layout_categories"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="5dp"
-    />
 
-    <include layout="@layout/main_activity_popular"/>
+      <include layout="@layout/main_activity_header"/>
+<include layout="@layout/search_bar"/>
+<include layout="@layout/main_layout_categories" />
+      <include layout="@layout/main_activity_popular" />
 
   </LinearLayout>
 

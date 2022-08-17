@@ -1,87 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@+id/header"
-    android:layout_width="wrap_content"
+<LinearLayout android:id="@+id/header"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="14dp"
-    android:layout_marginTop="48dp"
+    android:gravity="center"
+    android:padding="5dp"
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-
-    <RelativeLayout
-        android:id="@+id/icon"
+    <ImageView
+        android:id="@+id/header_center_logo"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="16dp">
-
-        <ImageView
-            android:id="@+id/path"
-            android:layout_width="23dp"
-            android:layout_height="1.29dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="8dp"
-            android:contentDescription="path"
-            android:src="@drawable/path" />
-
-        <ImageView
-            android:id="@+id/path_ek1"
-            android:layout_width="23dp"
-            android:layout_height="1.29dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="1dp"
-            android:contentDescription="path_ek1"
-            android:src="@drawable/path_ek1" />
-
-        <ImageView
-            android:id="@+id/path_ek2"
-            android:layout_width="23dp"
-            android:layout_height="1.29dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="16dp"
-            android:contentDescription="path_ek2"
-            android:src="@drawable/path_ek2" />
-
-    </RelativeLayout>
-
-    <TextView
-        android:id="@+id/home"
-        android:layout_width="65dp"
-        android:layout_height="35dp"
-        android:layout_gravity="center_horizontal|center"
-        android:layout_marginLeft="164dp"
-        android:layout_marginTop="14dp"
-        android:fontFamily="Poppins"
-        android:gravity="center"
-        android:text="@string/dde"
-        android:textColor="@color/home_color"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+        android:layout_height="50dp"
+        android:src="@drawable/dde_logo" />
 
 
-    <RelativeLayout
-        android:id="@+id/header_left_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="336dp"
-        android:layout_marginTop="0dp">
-
-        <View
-            android:id="@+id/mask"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="0dp"
-            android:background="@drawable/mask_shape" />
-
-        <View
-            android:id="@+id/mask_ek1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="0dp"
-            android:background="@drawable/mask_ek1_shape" />
-
-    </RelativeLayout>
-
-</RelativeLayout>
+</LinearLayout>
 
