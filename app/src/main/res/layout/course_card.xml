@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_ek3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+
+    android:background="@drawable/_bg___03_ek2_shape">
+
+    <ImageView
+        android:id="@+id/rectangle_ek4"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="rectangle_ek4"
+        android:src="@drawable/rectangle_ek8_shape" />
+
+
+    <RelativeLayout
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <View
+            android:id="@+id/mask_ek2"
+            android:layout_width="130dp"
+            android:layout_height="131dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/mask_ek2_shape" />
+
+        <View
+            android:id="@+id/mask_ek3"
+            android:layout_width="130dp"
+            android:layout_height="131dp"
+            android:background="@drawable/img_01" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mobile_design_ek1"
+        android:layout_width="130dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="21dp"
+        android:fontFamily="Poppins"
+        android:text="CDS Math Online Course"
+        android:textColor="@color/home_color"
+        android:textSize="14sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/icon_ek5"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1dp"
+            android:contentDescription="ic_star"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/icon_ek6"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="1dp"
+            android:contentDescription="ic_star"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/icon_ek7"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="1dp"
+            android:contentDescription="ic_star"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/icon_ek8"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="1dp"
+            android:contentDescription="ic_star"
+            android:src="@drawable/ic_star" />
+
+        <ImageView
+            android:id="@+id/icon_ek9"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="1dp"
+            android:contentDescription="ic_star"
+            android:src="@drawable/ic_star" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="90dp">
+        <TextView
+            android:id="@+id/timeing"
+            android:layout_width="75dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="Poppins"
+            android:text="1:30 Hours"
+            android:textColor="@color/_25_class_color"
+            android:textSize="10sp" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/_5_0__21_reviews_"
+        android:layout_width="126dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="Poppins"
+        android:text="$234"
+        android:textColor="#968af0"
+        android:textSize="12sp" />
+
+</RelativeLayout>

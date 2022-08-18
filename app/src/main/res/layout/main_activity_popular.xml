@@ -54,10 +54,12 @@
         </RelativeLayout>
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:id="@+id/card_ek3"
+            android:id="@+id/courseCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#f6f6f6">
+            android:background="#f6f6f6"
+
+            >
 
             <ImageView
                 android:id="@+id/rectangle_ek4"

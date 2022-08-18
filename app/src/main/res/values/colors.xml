@@ -2,6 +2,8 @@
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
+    <color name="app_icon">#a21c1c</color>
+    <color name="app_bar">#940c0c</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
@@ -14,10 +16,10 @@
     <color name="rectangle_color">#FFFFFF</color>
     <color name="oval_color">#ffffff</color>
     <color name="search_ek1_color">#E5E5E5</color>
-    <color name="rectangle_ek1_color">#8677EE</color>
+    <color name="rectangle_ek1_color">#a21c1c</color>
     <color name="_5_0__21_reviews__color">#9E9DA6</color>
     <color name="_25_class_color">#84888D</color>
     <color name="rectangle_ek5_color">#FFF2D5</color>
-    <color name="rectangle_ek9_color">#EBE8FE</color>
+    <color name="rectangle_ek9_color">#56FF0000</color>
     <color name="ui_ux_designer_all_p_color">#292A2C</color>
 </resources>
